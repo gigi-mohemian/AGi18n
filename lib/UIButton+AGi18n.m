@@ -13,7 +13,7 @@
 - (void)localizeFromNib {
 
     //Replace text with localizable version
-    NSArray *states = @[@(UIControlStateNormal), @(UIControlStateHighlighted), @(UIControlStateDisabled), @(UIControlStateSelected), @(UIControlStateApplication)];
+    NSArray *states = @[@(UIControlStateNormal)];
     for (NSNumber *state in states) {
         NSString *title = [self titleForState:state.integerValue];
         if (title.length > 0) {
