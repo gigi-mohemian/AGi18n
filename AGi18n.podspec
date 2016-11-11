@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage              = "https://github.com/angelolloqui/AGi18n"
   s.license               = "MIT License"
   s.author                = { "Angel Garcia Olloqui" => "http://angelolloqui.com" }
-  s.source                = { :git => "https://github.com/angelolloqui/AGi18n.git", :tag => "0.0.1" }
+  s.source                = { :git => "https://github.com/gigi-mohemian/AGi18n", :branch => "master" }
   s.platform              = :ios, '5.0'
   s.ios.deployment_target = '5.0'
   s.source_files          = 'lib/*.{h,m}'
